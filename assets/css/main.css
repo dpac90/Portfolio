@@ -1602,6 +1602,11 @@
 		margin: 0 0 2em 0;
 	}
 
+	.lead {
+		font-size: 2.8em;
+		line-height: 1.4em;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
 		font-weight: 400;
@@ -1622,6 +1627,11 @@
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+	}
+
+	.hello {
+		display: none;
+		font-size: 4em;
 	}
 
 	h3 {
@@ -1742,7 +1752,7 @@
 	}
 
 	header.major h2 {
-		font-size: 2em;
+		font-size: 4em;
 	}
 
 /* Form */
@@ -2987,6 +2997,10 @@
 				font-size: 1em;
 			}
 
+			.lead {
+				font-size: 1.6em;
+			}
+
 		/* Section/Article */
 
 			section.special, article.special {
@@ -2994,7 +3008,7 @@
 			}
 
 			header.major h2 {
-				font-size: 1.35em;
+				font-size: 2.5em;
 			}
 
 		/* List */
