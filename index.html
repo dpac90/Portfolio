@@ -13,12 +13,32 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="#" class="image avatar"><img src="images/deepak.jpg" alt="Deepak Pradeep" /></a>
+				<a href="index.html" class="image avatar"><img src="images/deepak.jpg" alt="Deepak Pradeep" /></a>
 				<h1><strong>Deepak Pradeep</strong><br />
 				UI/UX Designer</h1>
 			</header>
 
 		<!-- Main -->
+			<div id='nav-menu'>
+				<a href="index.html" class="nav-menu-home"><img src="images/deepak-logo.png" alt="Deepak Pradeep" /></a>
+				<input type="checkbox" id="op"></input>
+				<div class="overlay-menu-icon">
+					<label for="op"><span class="icon fa-navicon"></span></label>
+				</div>
+				<div class="overlay overlay-hugeinc">
+				<label for="op"><span class="icon fa-close"></span></label>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Accolades</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			</div>
+
 			<div id="main">
 
 				<!-- One -->
@@ -38,45 +58,25 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="episteme.html">
+								<img src="images/projects/episteme/episteme-thumb.png" class="image fit thumb" alt="" />
+								<h3>Episteme</h3>
+								<p>Connect. Collaborate. Contribute.</p>
+								</a>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="">
+								<img src="images/fulls/02.jpg" class="image fit thumb" alt="" />
+								<h3>More work</h3>
+								<p>coming up soon!</p>
+								</a>
 							</article>
 						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
 					</section>
 
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<div class="row">
 							<div class="12u 12u$(small)">
 								<form method="post" action="//formspree.io/dpac90@gmail.com">
@@ -153,6 +153,12 @@
 					showNextHello();
 
 				})();
+			</script>
+
+			<script>
+				$(window).scroll(function () {
+					showMenu();
+				});
 			</script>
 
 			<!-- Google Analytics Tracking Script -->
