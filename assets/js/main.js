@@ -5,10 +5,17 @@
 */
 
 function showMenu() {
-    if (document.body.scrollTop > 50) //Show the slider after scrolling down 50px
+    if (document.body.scrollTop > 50) //Show the top menu after scrolling down 50px
         $('#nav-menu').fadeIn();
     else
         $('#nav-menu').fadeOut();
+}
+
+function showNavArrows() {
+    if (document.body.scrollTop > 300) //Show the project navigation arrows after scrolling down 200px
+        $('.projectNavArrow').fadeIn();
+    else
+        $('.projectNavArrow').fadeOut();
 }
 
 (function($) {
@@ -36,6 +43,7 @@ function showMenu() {
 		var $window = $(window),
 			$body = $('body'),
 			$header = $('#header');
+			$headerProject = $('#headerProject');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -85,14 +93,17 @@ function showMenu() {
 
 							$window.off('scroll.strata_parallax');
 							$header.css('background-position', 'top left, center center');
+							$headerProject.css('background-position', 'top left, center center');
 
 						}
 						else {
 
 							$header.css('background-position', 'left 0px');
+							$headerProject.css('background-position', 'left 0px');
 
 							$window.on('scroll.strata_parallax', function() {
 								$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+								$headerProject.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 							});
 
 						}
@@ -112,7 +123,7 @@ function showMenu() {
 						overlayOpacity: 0.85,
 						popupCloserText: '',
 						popupLoaderText: '',
-						selector: '.work-item a.image',
+						selector: '.work-item-project a.image',
 						usePopupCaption: true,
 						usePopupDefaultStyling: false,
 						usePopupEasyClose: false,
