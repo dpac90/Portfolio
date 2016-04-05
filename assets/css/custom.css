@@ -193,6 +193,7 @@
 	}
 
 	#nav-menu2 {
+		background: rgba(255,255,255,0.95);
 		z-index: 4;
 		width: auto;
 		margin-left: 35%;
@@ -448,6 +449,7 @@
 			}
 
 			#nav-menu2 {
+				background: none;
 				top: 0;
 				left: -400px;
 				padding: 2em 3em;
