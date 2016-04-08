@@ -11,9 +11,33 @@
 	}
 
 	.lead {
-		font-size: 2.3em;
-		line-height: 1.2em;
+		font-size: 2.1em;
+		line-height: 1.5em;
 	}
+
+		.lead img {
+			height: 25px;
+		}
+
+/* About page */
+
+	.about-page	ul li {
+		font-size: 1em;
+	}
+
+		.about-page	h2 {
+			font-size: 2em;
+		}
+
+		.about-page	h3 {
+			font-size: 2em;
+			font-weight: normal !important;
+			margin: 0 0 0.5em 0;
+		}
+
+		.about-page	h4 {
+			margin: 0 0 0.2em 0;
+		}
 
 /* Project Header */
 
@@ -23,6 +47,10 @@
 
 	.mint-header {
 		background-image: url("images/overlay.png"), url("../../images/projects/mint/mint-bg.jpg");
+	}
+
+	.about-header {
+		background-image: url("images/overlay.png"), url("../../images/chicago-bg.jpg") !important;
 	}
 
 	#headerProject {
@@ -63,7 +91,7 @@
 
 	header.work h2 {
 		font-size: 2.5em;
-		margin: 0 0 0.3em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 /* Project page */
@@ -513,6 +541,10 @@
 			.hello {
 				font-size: 3em;
 				margin: 0 0 0.3em 0;
+			}
+
+			.lead {
+				font-size: 1.6em;
 			}
 
 		/* Project */

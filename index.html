@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
 		<link rel="stylesheet" href="assets/css/hint.min.css" />
-		<script src="//twemoji.maxcdn.com/2/twemoji.min.js"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body id="top">
@@ -32,9 +31,8 @@
 					<nav>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<!-- <li><a href="#">About</a></li> -->
+							<li><a href="about.html">About</a></li>
 							<li><a href="projects.html">Projects</a></li>
-							<!-- <li><a href="#">Accolades</a></li> -->
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
@@ -51,9 +49,8 @@
 					<nav>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<!-- <li><a href="#">About</a></li> -->
+							<li><a href="about.html">About</a></li>
 							<li><a href="projects.html">Projects</a></li>
-							<!-- <li><a href="#">Accolades</a></li> -->
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
@@ -71,8 +68,8 @@
 							<h2 style="display:none" data-hint="Arabic: Limited working proficiency" class="hello hint--bottom hint--rounded">مرحبا</h2>
 							<h2 style="display:none" data-hint="Malayalam: Native proficiency" class="hello hint--bottom hint--rounded">നമസ്കാരം</h2>
 						</header>
-						<p class="lead">I’m an experienced UI/UX designer hailing from God’s Own Country 🇮🇳 and living in the Windy City 🇱🇷.</p>
-						<a href="about.html">Read more</a>
+						<p class="lead">I’m an experienced UI/UX designer who hails from <a href="https://en.wikipedia.org/wiki/God%27s_Own_Country#Kerala.2C_India" target="_blank">God’s Own Country <img src="images/emojis/halo.png" draggable="false"></a> and lives in the <a href="https://en.wikipedia.org/wiki/Windy_City_(nickname)" target="_blank">Windy City <img src="images/emojis/wind.png" draggable="false"></a></p>
+						<a href="about.html">Read more ...</a>
 					</section>
 
 				<!-- Two -->
@@ -185,6 +182,10 @@
 				$(window).scroll(function () {
 					showMenu();
 				});
+			</script>
+
+			<script>
+				twemoji.parse(document.body);
 			</script>
 
 			<!-- Google Analytics Tracking Script -->
