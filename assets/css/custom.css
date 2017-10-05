@@ -45,6 +45,14 @@
 		background-image: url("images/overlay.png"), url("../../images/projects/episteme/episteme-bg.jpg");
 	}
 
+	.translate-mobile-header {
+		background-image: url("images/overlay.png"), url("../../images/projects/translate-mobile/translate-mobile-bg.jpg");
+	}
+
+	.translate-editor-header {
+		background-image: url("images/overlay.png"), url("../../images/projects/translate-editor/translate-editor-bg.jpg");
+	}
+
 	.mint-header {
 		background-image: url("images/overlay.png"), url("../../images/projects/mint/mint-bg.jpg");
 	}

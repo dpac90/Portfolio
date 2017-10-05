@@ -240,26 +240,6 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
-			<!-- Hello Transition Script -->
-			<script>
-				(function() {
-
-					var hello = $(".hello");
-					var helloIndex = -1;
-
-					function showNextHello() {
-						++helloIndex;
-						hello.eq(helloIndex % hello.length)
-						.fadeIn(1000)
-						.delay(2000)
-						.fadeOut(1000, showNextHello);
-					}
-
-					showNextHello();
-
-				})();
-			</script>
-
 			<script>
 				$(window).scroll(function () {
 					showMenu();
