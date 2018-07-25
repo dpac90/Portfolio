@@ -284,9 +284,13 @@
 			<script src="assets/js/main.js"></script>
 
 			<script>
-				$(window).scroll(function () {
-					showMenu();
-					showNavArrows();
+				$(document).scroll(function() { //Show the top menu with shadow after scrolling down 50px
+				  var y = $(this).scrollTop();
+				  if (y > 50) {
+				    $('#nav-menu').fadeIn();
+				  } else {
+				    $('#nav-menu').fadeOut();
+				  }
 				});
 			</script>
 
