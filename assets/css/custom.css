@@ -53,12 +53,24 @@
 		background-image: url("images/overlay.png"), url("../../images/projects/translate-editor/translate-editor-bg.jpg");
 	}
 
+	.pharmacy-chat-header {
+		background-image: url("images/overlay.png"), url("../../images/projects/pharmacy-chat/pharmacy-chat-bg.jpg");
+	}
+
+	.ice-burg-header {
+		background-image: url("images/overlay.png"), url("../../images/projects/ice-burg/ice-burg-bg.jpg");
+	}
+
+	.shedd-aquarium-header {
+		background-image: url("images/overlay.png"), url("../../images/projects/shedd-aquarium/shedd-aquarium-bg.jpg");
+	}
+
 	.mint-header {
 		background-image: url("images/overlay.png"), url("../../images/projects/mint/mint-bg.jpg");
 	}
 
 	.about-header {
-		background-image: url("images/overlay.png"), url("../../images/chicago-bg.jpg") !important;
+		background-image: url("images/overlay.png"), url("../../images/ux-design4.gif") !important;
 	}
 
 	#headerProject {
